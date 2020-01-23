@@ -1,5 +1,5 @@
 <?php
-namespace Incube8\Encryptate;
+namespace Encryptate;
 
 use Illuminate\Encryption\Encrypter;
 

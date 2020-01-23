@@ -1,6 +1,6 @@
 <?php
 
-namespace Incube8\Encryptate\Contracts;
+namespace Encryptate\Contracts;
 
 use Illuminate\Contracts\Encryption\Encrypter as EncrypterContract;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Incube8\Encryptate;
+namespace Encryptate;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use Incube8\Encryptate\Console\Commands\RotatingKeyGenerateCommand;
+use Encryptate\Console\Commands\RotatingKeyGenerateCommand;
 use RuntimeException;
 
 /**

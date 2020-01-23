@@ -1,5 +1,5 @@
 {
-  "name": "incube8/encryptate",
+  "name": "mvestil/encryptate",
   "description": "Extended version of Illuminate Encryption package.",
   "keywords": [
     "encrypt",
@@ -29,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Incube8\\Encryptate\\": "src/"
+      "Encryptate\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Incube8\\Encryptate\\Test\\": "tests/"
+      "Encryptate\\Test\\": "tests/"
     }
   },
   "config": {
@@ -47,7 +47,7 @@
     },
     "laravel": {
       "providers": [
-        "Incube8\\Encryptate\\EncryptateServiceProvider"
+        "Encryptate\\EncryptateServiceProvider"
       ]
     }
   }

@@ -1,12 +1,12 @@
 <?php
 
-namespace Incube8\Encryptate\Test;
+namespace Encryptate\Test;
 
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Support\Str;
-use Incube8\Encryptate\EncrypterExtended;
-use Incube8\Encryptate\Exceptions\EncryptionKeyUsedNotFound;
-use Incube8\Encryptate\RotationalEncrypter;
+use Encryptate\EncrypterExtended;
+use Encryptate\Exceptions\EncryptionKeyUsedNotFound;
+use Encryptate\RotationalEncrypter;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -1,11 +1,11 @@
 <?php
 
-namespace Incube8\Encryptate;
+namespace Encryptate;
 
-use Incube8\Encryptate\Contracts\RotateEncrypterInterface;
+use Encryptate\Contracts\RotateEncrypterInterface;
 use Illuminate\Contracts\Encryption\Encrypter as EncrypterContract;
 use Illuminate\Support\Str;
-use Incube8\Encryptate\Exceptions\EncryptionKeyUsedNotFound;
+use Encryptate\Exceptions\EncryptionKeyUsedNotFound;
 
 /**
  * Class RotationalEncrypter

@@ -11,7 +11,7 @@ Simply to add to your composer.json
 ```
 {
     "require": {
-        "incube8/encryptate": "^2.0"
+        "mvestil/encryptate": "^1.0"
     }
 }
 ```
@@ -23,7 +23,7 @@ Simply to add to your composer.json
 ```
 'providers' => [
     ...
-    Incube8\Encryptate\EncryptateServiceProvider::class,
+    Encryptate\EncryptateServiceProvider::class,
 ]
 ``` 
 
@@ -96,10 +96,10 @@ Use Laravel's Crypt facade normally as it was before.
 
 ### TODOs ###
 
-* Write unit tests
+* Console command to re-encrypt database tables
 * Support multiple old keys
 
 ### Who do I talk to? ###
 
-* Mark Bonnie Vestil (mark@incube8.sg / mbvestil@gmail.com)
+* Mark Bonnie Vestil (mbvestil@gmail.com)
 * Other community or team contact

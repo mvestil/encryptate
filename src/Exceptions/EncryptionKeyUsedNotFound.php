@@ -1,6 +1,6 @@
 <?php
 
-namespace Incube8\Encryptate\Exceptions;
+namespace Encryptate\Exceptions;
 
 use Illuminate\Contracts\Encryption\DecryptException;
 

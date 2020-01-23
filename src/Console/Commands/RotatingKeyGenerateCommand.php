@@ -1,6 +1,6 @@
 <?php
 
-namespace Incube8\Encryptate\Console\Commands;
+namespace Encryptate\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
