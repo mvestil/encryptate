@@ -1,6 +1,6 @@
 {
   "name": "mvestil/encryptate",
-  "description": "Extended version of Illuminate Encryption package.",
+  "description": "Extended version of Illuminate Encryption package to support rotating encryption keys.",
   "keywords": [
     "encrypt",
     "encryptate",
